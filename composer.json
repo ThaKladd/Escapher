@@ -1,0 +1,30 @@
+{
+    "name": "xcapher/xcapher",
+    "description": "A library to escape any value, written in PHP for PHP",
+    "type": "library",
+    "keywords": [
+        "PHP",
+        "escape",
+        "escaper",
+        "sanitizer",
+        "validator"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": "src/xcapher"
+        },
+        "files": ["src/functions.php", "src/Error/XcapherError.php"]
+    },
+    "authors": [
+        {
+            "name": "John Larsen",
+            "email": "johninen@gmail.com",
+            "homepage": "https://betweenmovies.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/ThaKladd/Xcapher",
+    "minimum-stability": "dev",
+    "require": { "php": ">=8.1" }
+}
